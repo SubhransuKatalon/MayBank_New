@@ -25,6 +25,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Demo_SSN/Page_SSN Mart
 
 WebUI.click(findTestObject('Object Repository/Demo_SSN/Page_SSN Mart/span_Login'))
 
+'User Name is added'
 WebUI.setText(findTestObject('Object Repository/Demo_SSN/Page_SSN Mart/input_Login_Username'), 'sid')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Demo_SSN/Page_SSN Mart/input_Login_Password'), '4nvbrPglk7k=')
