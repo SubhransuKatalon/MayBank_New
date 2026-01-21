@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_02_AdminPage</name>
+   <tag>OrangeHRM,Smoke,Admin</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6d5ccbe8-c1ca-4daf-899c-3925e02eceee</testCaseGuid>
+</TestCaseEntity>

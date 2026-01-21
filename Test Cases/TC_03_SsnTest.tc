@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is a new Test Case with SSN website</description>
+   <name>TC_03_SsnTest</name>
+   <tag>Sanity,SSN</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3481634-a368-4e9d-9742-dbbe29c4bcdb</testCaseGuid>
+</TestCaseEntity>
