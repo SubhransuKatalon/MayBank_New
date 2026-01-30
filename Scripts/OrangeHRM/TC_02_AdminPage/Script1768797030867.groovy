@@ -18,20 +18,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-String Parent_ABC = WebUI.callTestCase(findTestCase('TC_01_Login'), [:], FailureHandling.STOP_ON_FAILURE)
+String Parent_ABC = WebUI.callTestCase(findTestCase('OrangeHRM/TC_01_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment(Parent_ABC)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Demo_Maybank_OrangeHRM/Page_OrangeHRM/span_Admin'), 30)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Demo_Maybank_OrangeHRM/Page_OrangeHRM/span_Admin'), 'Admin', FailureHandling.OPTIONAL)
+WebUI.verifyElementText(findTestObject('Object Repository/Demo_Maybank_OrangeHRM/Page_OrangeHRM/span_Admin'), 'Admin', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Demo_Maybank_OrangeHRM/Page_OrangeHRM/span_Admin'), CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Demo_Maybank_OrangeHRM/Page_OrangeHRM/title_System Users'), 'System U', 
-    FailureHandling.OPTIONAL)
+WebUI.verifyElementText(findTestObject('Object Repository/Demo_Maybank_OrangeHRM/Page_OrangeHRM/title_System Users'), 'System Users', 
+    FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'demo_M.maybank_test.refreshBrowser'()
 
 text_ext = WebUI.getText(findTestObject('Object Repository/Demo_Maybank_OrangeHRM/Page_OrangeHRM/title_System Users'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.comment(text_ext)
+

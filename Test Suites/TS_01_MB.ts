@@ -5,9 +5,9 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>2</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>5</pageLoadTimeout>
-   <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>d4f97156-d409-4606-b2d0-bd0c45946b24</testSuiteGuid>
@@ -15,7 +15,7 @@
       <guid>2dd81486-2cc7-4f27-a6f4-c328c1e18532</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_01_Login</testCaseId>
+      <testCaseId>Test Cases/OrangeHRM/TC_01_Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -33,8 +33,8 @@
    <testCaseLink>
       <guid>0d67fa9f-3233-48c7-862d-75fa070d2480</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/TC_02_AdminPage</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OrangeHRM/TC_02_AdminPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
